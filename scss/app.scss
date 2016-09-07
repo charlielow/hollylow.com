@@ -1,0 +1,111 @@
+// all sass files to be compiled to css should import variables-and-mixins first
+@import "variables-and-mixins";
+
+// custom configuration for bootstrap
+@import "bootstrap";
+
+.hero {
+  // background-color: #159957;
+  // background-image: linear-gradient(120deg, #155799, #159957);
+  background-color: #eee;
+  margin-bottom: 5px;
+  .hero-content {
+    margin: 50px 0;
+    @media (min-width: $screen-sm) {
+      margin: 60px 0;
+    }
+  }
+  h1 {
+    text-align: center;
+    font-size: floor(($font-size-base * 2.6));
+    margin: 0;
+    color: $dark-blue;
+    font-weight: normal;
+  }
+  .line-1 {
+    font-size: floor(($font-size-base * 2.5));
+    @media (min-width: $screen-sm) {
+      font-size: floor(($font-size-base * 2.6));
+    }
+  }
+  .line-2 {
+    font-size: floor(($font-size-base * 1.75));
+    display: block;
+    @media (min-width: $screen-sm) {
+      display: inline;
+      font-size: floor(($font-size-base * 2.6));
+    }
+  }
+  h2 {
+    text-align: center;
+    font-size: floor(($font-size-base * 1.2));
+    color: $red;
+    margin: 8px auto 0;
+    font-weight: normal;
+    max-width: 280px;
+    @media (min-width: $screen-xs) {
+      font-size: floor(($font-size-base * 1.3));
+      max-width: 380px;
+    }
+    @media (min-width: $screen-sm) {
+      max-width: none;
+      font-size: floor(($font-size-base * 1.5));
+    }
+  }
+}
+
+.main {
+  h3 {
+    color: $dark-blue;
+  }
+  p {
+  }
+  img {
+    float: right;
+    margin: 0 0 15px 15px;
+    max-width: 110px;
+    @media (min-width: $screen-sm) {
+      max-width: 150px;
+    }
+    @media (min-width: $screen-md) {
+      max-width: 200px;
+    }
+    @media (min-width: $screen-lg) {
+      max-width: 220px;
+    }
+  }
+  ul {
+    padding: 0 0 0 20px;
+    @media (min-width: $screen-xs) {
+      padding: 0 0 0 30px;
+    }
+    li {
+      margin: 6px 0;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  margin: 100px 0 60px;
+  font-size: .85em;
+  color: $gray-light;
+  .a-line {
+    display: block;
+    @media (min-width: $screen-xs) {
+      display: inline;
+    }
+  }
+  .em-dash {
+    display: none;
+    @media (min-width: $screen-xs) {
+      display: inline;
+    }
+  }
+}
+
+// Newsletter
+
+label[for="subscribe103316email"] {
+  color: #333 !important;
+}

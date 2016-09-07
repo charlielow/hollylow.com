@@ -1,0 +1,24 @@
+{
+  "name": "hollylow.com",
+  "version": "0.0.0",
+  "homepage": "http://www.hollylow.com",
+  "authors": [
+    "charlielow"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "ISC",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.1.0",
+    "bootstrap-sass": "3.3.7"
+  }
+}
