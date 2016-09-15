@@ -3122,6 +3122,10 @@ input[type="button"].btn-block {
   .main ul li {
     margin: 6px 0; }
 
+.main .donate-cta {
+  text-align: center;
+  padding: 15px 0; }
+
 footer {
   text-align: center;
   margin: 100px 0 60px;
