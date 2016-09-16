@@ -3097,34 +3097,33 @@ input[type="button"].btn-block {
         max-width: none;
         font-size: 21px; } }
 
-.main h3 {
-  color: #0B5394; }
-
-.main img {
-  float: right;
-  margin: 0 0 15px 15px;
-  max-width: 110px; }
-  @media (min-width: 768px) {
-    .main img {
-      max-width: 150px; } }
-  @media (min-width: 992px) {
-    .main img {
-      max-width: 200px; } }
-  @media (min-width: 1200px) {
-    .main img {
-      max-width: 220px; } }
-
-.main ul {
-  padding: 0 0 0 20px; }
-  @media (min-width: 480px) {
-    .main ul {
-      padding: 0 0 0 30px; } }
-  .main ul li {
-    margin: 6px 0; }
-
-.main .donate-cta {
-  text-align: center;
-  padding: 15px 0; }
+.main {
+  font-size: 1.1em; }
+  .main h3 {
+    color: #0B5394; }
+  .main img {
+    float: right;
+    margin: 0 0 15px 15px;
+    max-width: 110px; }
+    @media (min-width: 768px) {
+      .main img {
+        max-width: 150px; } }
+    @media (min-width: 992px) {
+      .main img {
+        max-width: 200px; } }
+    @media (min-width: 1200px) {
+      .main img {
+        max-width: 220px; } }
+  .main ul {
+    padding: 0 0 0 20px; }
+    @media (min-width: 480px) {
+      .main ul {
+        padding: 0 0 0 30px; } }
+    .main ul li {
+      margin: 6px 0; }
+  .main .donate-cta {
+    text-align: center;
+    padding: 15px 0; }
 
 footer {
   text-align: center;
